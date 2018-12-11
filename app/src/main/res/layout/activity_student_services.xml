@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/evaluation" />
+        app:srcCompat="@drawable/evaluation"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView18"

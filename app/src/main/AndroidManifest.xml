@@ -19,7 +19,10 @@
         <activity android:name=".sis" />
         <activity android:name=".google_sevices" />
         <activity android:name=".student_info" />
-        <activity android:name=".student_services"></activity>
+        <activity android:name=".student_services" />
+        <activity android:name=".student_infor" />
+        <activity android:name=".scholarship" />
+        <activity android:name=".international_student_info"></activity>
     </application>
 
 </manifest>

@@ -22,7 +22,8 @@
         <activity android:name=".student_services" />
         <activity android:name=".student_infor" />
         <activity android:name=".scholarship" />
-        <activity android:name=".international_student_info"></activity>
+        <activity android:name=".international_student_info" />
+        <activity android:name=".Ename"></activity>
     </application>
 
 </manifest>

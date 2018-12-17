@@ -4,39 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sis"
-    tools:context=".student_infor">
+    tools:context=".acad"
+    android:background="@drawable/sis">
 
     <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="347dp"
-        android:layout_height="426dp"
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/student_info" />
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@drawable/acad" />
 
-    <Button
-        android:id="@+id/scholarship_bt"
-        android:layout_width="215dp"
-        android:layout_height="27dp"
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="104dp"
-        android:background="@drawable/scholarship_bt"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.995" />
+        app:layout_constraintVertical_bias="0.237"
+        app:srcCompat="@drawable/mark_tab" />
+
+    <Button
+        android:id="@+id/mark_sub_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/mark_sub"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
 
     <Button
         android:id="@+id/log_out_bt"
@@ -69,9 +86,8 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="175dp"
-        android:layout_height="395dp"
+        android:layout_width="94dp"
+        android:layout_height="267dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -79,76 +95,49 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07999998">
+        app:layout_constraintVertical_bias="0.236">
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textView61"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="67dp"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView62"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="70dp"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textView64"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="65dp"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/textView63"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="32dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="37dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="31dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="38dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="41dp"
+            android:layout_height="65dp"
             android:text="TextView" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
 </android.support.constraint.ConstraintLayout>

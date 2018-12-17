@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.oyil.sis">
 
     <application
@@ -8,7 +9,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".sign_in">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +25,15 @@
         <activity android:name=".student_infor" />
         <activity android:name=".scholarship" />
         <activity android:name=".international_student_info" />
-        <activity android:name=".Ename"></activity>
+        <activity android:name=".Ename" />
+        <activity android:name=".payment" />
+        <activity android:name=".baraa" />
+        <activity android:name=".make_up" />
+        <activity android:name=".student_address" />
+        <activity android:name=".study_plane" />
+        <activity android:name=".acad" />
+        <activity android:name=".regist" />
+        <activity android:name=".stud_tab"></activity>
     </application>
 
 </manifest>

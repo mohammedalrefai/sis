@@ -45,38 +45,32 @@
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:text="TextView" />
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView41"
                 android:layout_width="match_parent"
-                android:layout_height="51dp"
-                android:text="TextView" />
+                android:layout_height="51dp" />
 
             <TextView
                 android:id="@+id/textView45"
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
-                android:text="TextView" />
+                android:layout_height="49dp" />
 
             <TextView
                 android:id="@+id/textView56"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:text="TextView" />
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView53"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="TextView" />
+                android:layout_height="50dp" />
 
             <TextView
                 android:id="@+id/textView52"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:text="TextView" />
+                android:layout_height="48dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,38 +81,32 @@
             <TextView
                 android:id="@+id/textView38"
                 android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:text="TextView" />
+                android:layout_height="43dp" />
 
             <TextView
                 android:id="@+id/textView42"
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
-                android:text="TextView" />
+                android:layout_height="49dp" />
 
             <TextView
                 android:id="@+id/textView46"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="TextView" />
+                android:layout_height="50dp" />
 
             <TextView
                 android:id="@+id/textView54"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:text="TextView" />
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView51"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="TextView" />
+                android:layout_height="50dp" />
 
             <TextView
                 android:id="@+id/textView55"
                 android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:text="TextView" />
+                android:layout_height="52dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -129,38 +117,32 @@
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:text="TextView" />
+                android:layout_height="43dp" />
 
             <TextView
                 android:id="@+id/textView43"
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
-                android:text="TextView" />
+                android:layout_height="49dp" />
 
             <TextView
                 android:id="@+id/textView47"
                 android:layout_width="match_parent"
-                android:layout_height="51dp"
-                android:text="TextView" />
+                android:layout_height="51dp" />
 
             <TextView
                 android:id="@+id/textView58"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:text="TextView" />
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView57"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:text="TextView" />
+                android:layout_height="48dp" />
 
             <TextView
                 android:id="@+id/textView50"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="TextView" />
+                android:layout_height="50dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -171,38 +153,32 @@
             <TextView
                 android:id="@+id/textView40"
                 android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:text="TextView" />
+                android:layout_height="42dp" />
 
             <TextView
                 android:id="@+id/textView44"
                 android:layout_width="match_parent"
-                android:layout_height="51dp"
-                android:text="TextView" />
+                android:layout_height="51dp" />
 
             <TextView
                 android:id="@+id/textView48"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text="TextView" />
+                android:layout_height="50dp" />
 
             <TextView
                 android:id="@+id/textView60"
                 android:layout_width="match_parent"
-                android:layout_height="41dp"
-                android:text="TextView" />
+                android:layout_height="41dp" />
 
             <TextView
                 android:id="@+id/textView59"
                 android:layout_width="match_parent"
-                android:layout_height="51dp"
-                android:text="TextView" />
+                android:layout_height="51dp" />
 
             <TextView
                 android:id="@+id/textView49"
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
-                android:text="TextView" />
+                android:layout_height="49dp" />
         </LinearLayout>
     </LinearLayout>
 

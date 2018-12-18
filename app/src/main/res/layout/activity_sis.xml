@@ -8,66 +8,66 @@
     android:background="@drawable/sis">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/plan_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView5"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintBottom_toTopOf="@+id/register_img"
+        app:layout_constraintEnd_toStartOf="@+id/table_img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/study_plane" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/table_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintBottom_toTopOf="@+id/academic_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/plan_img"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/table" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/register_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintBottom_toTopOf="@+id/info_img"
+        app:layout_constraintEnd_toStartOf="@+id/academic_img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/plan_img"
         app:srcCompat="@drawable/regs" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/info_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="24dp"
         android:layout_marginBottom="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintEnd_toStartOf="@+id/service_img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/register_img"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/stu_info" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/academic_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintBottom_toTopOf="@+id/service_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.612"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/register_img"
+        app:layout_constraintTop_toBottomOf="@+id/table_img"
         app:srcCompat="@drawable/academic" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/service_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginEnd="24dp"
@@ -75,8 +75,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/info_img"
+        app:layout_constraintTop_toBottomOf="@+id/academic_img"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/stu_services" />
 
@@ -90,14 +90,14 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/log_out"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/google_services"
+        app:layout_constraintEnd_toStartOf="@+id/google_services_bt"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.983" />
 
     <Button
-        android:id="@+id/google_services"
+        android:id="@+id/google_services_bt"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"

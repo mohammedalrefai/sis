@@ -8,52 +8,52 @@
     android:background="@drawable/sis">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/drive_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView11"
-        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintBottom_toTopOf="@+id/calender_img"
+        app:layout_constraintEnd_toStartOf="@+id/gmail_img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/drive" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/gmail_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toTopOf="@+id/google_account_img"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/drive_img"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/gmail" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/calender_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintEnd_toStartOf="@+id/google_account_img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/drive_img"
         app:layout_constraintVertical_bias="0.038"
         app:srcCompat="@drawable/calender" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/google_account_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toEndOf="@+id/calender_img"
+        app:layout_constraintTop_toBottomOf="@+id/gmail_img"
         app:srcCompat="@drawable/google_account" />
 
     <Button

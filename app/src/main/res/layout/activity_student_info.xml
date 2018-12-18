@@ -8,51 +8,51 @@
     android:background="@drawable/sis">
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/info_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView15"
-        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintBottom_toTopOf="@+id/address_img"
+        app:layout_constraintEnd_toStartOf="@+id/foreign_img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/student_infor" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/foreign_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintBottom_toTopOf="@+id/name_img"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toEndOf="@+id/info_img"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/incom_student" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/address_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintEnd_toStartOf="@+id/name_img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/info_img"
         app:srcCompat="@drawable/stu_location" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/name_img"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintStart_toEndOf="@+id/address_img"
+        app:layout_constraintTop_toBottomOf="@+id/foreign_img"
         app:srcCompat="@drawable/english_name" />
 
     <Button

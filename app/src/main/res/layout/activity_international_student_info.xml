@@ -93,14 +93,14 @@
         app:layout_constraintVertical_bias="0.41000003">
 
         <EditText
-            android:id="@+id/editText6"
+            android:id="@+id/phone_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/address_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -108,7 +108,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editText9"
+            android:id="@+id/email_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -132,7 +132,7 @@
         app:layout_constraintVertical_bias="0.59000003">
 
         <EditText
-            android:id="@+id/editText11"
+            android:id="@+id/country_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -141,7 +141,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editText12"
+            android:id="@+id/state_txt"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:ems="10"
@@ -150,7 +150,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editText13"
+            android:id="@+id/street_txt"
             android:layout_width="match_parent"
             android:layout_height="34dp"
             android:ems="10"
@@ -159,7 +159,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editText14"
+            android:id="@+id/zip_txt"
             android:layout_width="match_parent"
             android:layout_height="34dp"
             android:ems="10"
@@ -168,7 +168,7 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editText15"
+            android:id="@+id/telephone_txt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

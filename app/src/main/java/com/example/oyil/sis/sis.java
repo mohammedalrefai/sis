@@ -52,19 +52,19 @@ public class sis extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.plan_img:
-                Intent plan_intent = new Intent(sis.this,sis.class);
+                Intent plan_intent = new Intent(sis.this,study_plane.class);
                 startActivity(plan_intent);
                 break;
             case R.id.table_img:
-                Intent table_intent = new Intent(sis.this,sis.class);
+                Intent table_intent = new Intent(sis.this,stud_tab.class);
                 startActivity(table_intent);
                 break;
             case R.id.register_img:
-                Intent register_intent = new Intent(sis.this,sis.class);
+                Intent register_intent = new Intent(sis.this,regist.class);
                 startActivity(register_intent);
                 break;
             case R.id.academic_img:
-                Intent academic_intent = new Intent(sis.this,sis.class);
+                Intent academic_intent = new Intent(sis.this,acad.class);
                 startActivity(academic_intent);
                 break;
             case R.id.info_img:
@@ -76,7 +76,7 @@ public class sis extends AppCompatActivity implements View.OnClickListener {
                 startActivity(service_intent);
                 break;
             case R.id.log_out_bt:
-                Intent log_out_intent = new Intent(sis.this,sis.class);
+                Intent log_out_intent = new Intent(sis.this,sign_in.class);
                 startActivity(log_out_intent);
                 break;
             case R.id.google_services_bt:

@@ -62,7 +62,7 @@ public class google_sevices extends AppCompatActivity implements View.OnClickLis
                 startActivity(google_account_intent);
                 break;
             case R.id.log_out_bt:
-                Intent log_out_intent = new Intent(google_sevices.this,google_sevices.class);
+                Intent log_out_intent = new Intent(google_sevices.this,sign_in.class);
                 startActivity(log_out_intent);
                 break;
             case R.id.back_bt:

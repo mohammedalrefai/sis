@@ -53,15 +53,15 @@ public class student_info extends AppCompatActivity implements View.OnClickListe
                 startActivity(foreign_intent);
                 break;
             case R.id.address_img:
-                Intent address_intent = new Intent(student_info.this,student_info.class);
+                Intent address_intent = new Intent(student_info.this,student_address.class);
                 startActivity(address_intent);
                 break;
             case R.id.name_img:
-                Intent name_intent = new Intent(student_info.this,student_info.class);
+                Intent name_intent = new Intent(student_info.this,Ename.class);
                 startActivity(name_intent);
                 break;
             case R.id.log_out_bt:
-                Intent log_out_intent = new Intent(student_info.this,student_info.class);
+                Intent log_out_intent = new Intent(student_info.this,sign_in.class);
                 startActivity(log_out_intent);
                 break;
             case R.id.back_bt:

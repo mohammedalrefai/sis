@@ -55,15 +55,15 @@ public class student_services extends AppCompatActivity implements View.OnClickL
                 startActivity(progress_intent);
                 break;
             case R.id.uncomplete_img:
-                Intent table_intent = new Intent(student_services.this,student_services.class);
+                Intent table_intent = new Intent(student_services.this,make_up.class);
                 startActivity(table_intent);
                 break;
             case R.id.quittance_img:
-                Intent register_intent = new Intent(student_services.this,student_services.class);
+                Intent register_intent = new Intent(student_services.this,baraa.class);
                 startActivity(register_intent);
                 break;
             case R.id.pay_img:
-                Intent academic_intent = new Intent(student_services.this,student_services.class);
+                Intent academic_intent = new Intent(student_services.this,payment.class);
                 startActivity(academic_intent);
                 break;
             case R.id.suspend_img:
@@ -75,7 +75,7 @@ public class student_services extends AppCompatActivity implements View.OnClickL
                 startActivity(service_intent);
                 break;
             case R.id.log_out_bt:
-                Intent log_out_intent = new Intent(student_services.this,student_services.class);
+                Intent log_out_intent = new Intent(student_services.this,sign_in.class);
                 startActivity(log_out_intent);
                 break;
             case R.id.back_bt:

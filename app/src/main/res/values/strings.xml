@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">sis</string>
+    <string name="f_nam">الاسم الاول</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="address">عنوان السكن</string>
+    <string name="email">الايميل</string>
+    <string name="state">الدولة</string>
+    <string name="city">المدينة</string>
+    <string name="street">اسم الشارع</string>
+    <string name="mail">صندوق البريد</string>
 </resources>

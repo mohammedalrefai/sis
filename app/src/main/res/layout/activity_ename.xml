@@ -104,30 +104,27 @@
             android:layout_height="71dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:singleLine="true" />
 
         <EditText
             android:id="@+id/sname"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/tname"
             android:layout_width="match_parent"
             android:layout_height="68dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/lname"
             android:layout_width="match_parent"
             android:layout_height="67dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

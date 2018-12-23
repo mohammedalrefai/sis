@@ -43,34 +43,46 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView28"
+                android:id="@+id/st_hours_1"
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="42dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/st_hours_2"
                 android:layout_width="match_parent"
-                android:layout_height="51dp" />
+                android:layout_height="51dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView45"
+                android:id="@+id/st_hours_3"
                 android:layout_width="match_parent"
-                android:layout_height="49dp" />
+                android:layout_height="49dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView56"
+                android:id="@+id/st_hours_4"
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="42dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView53"
+                android:id="@+id/st_hours_5"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView52"
+                android:id="@+id/st_hours_6"
                 android:layout_width="match_parent"
-                android:layout_height="48dp" />
+                android:layout_height="48dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -79,34 +91,46 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView38"
+                android:id="@+id/max_hours_1"
                 android:layout_width="match_parent"
-                android:layout_height="43dp" />
+                android:layout_height="43dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView42"
+                android:id="@+id/max_hours_2"
                 android:layout_width="match_parent"
-                android:layout_height="49dp" />
+                android:layout_height="49dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView46"
+                android:id="@+id/max_hours_3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView54"
+                android:id="@+id/max_hours_4"
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="42dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView51"
+                android:id="@+id/max_hours_5"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView55"
+                android:id="@+id/max_hours_6"
                 android:layout_width="match_parent"
-                android:layout_height="52dp" />
+                android:layout_height="52dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -115,34 +139,46 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView39"
+                android:id="@+id/hours_number_1"
                 android:layout_width="match_parent"
-                android:layout_height="43dp" />
+                android:layout_height="43dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView43"
+                android:id="@+id/hours_number_2"
                 android:layout_width="match_parent"
-                android:layout_height="49dp" />
+                android:layout_height="49dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView47"
+                android:id="@+id/hours_number_3"
                 android:layout_width="match_parent"
-                android:layout_height="51dp" />
+                android:layout_height="51dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView58"
+                android:id="@+id/hours_number_4"
                 android:layout_width="match_parent"
-                android:layout_height="42dp" />
+                android:layout_height="42dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView57"
+                android:id="@+id/hours_number_5"
                 android:layout_width="match_parent"
-                android:layout_height="48dp" />
+                android:layout_height="48dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
 
             <TextView
-                android:id="@+id/textView50"
+                android:id="@+id/hours_number_6"
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="50dp"
+                android:paddingTop="15dp"
+                android:textAlignment="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -151,32 +187,32 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView40"
+                android:id="@+id/tx_view_1"
                 android:layout_width="match_parent"
                 android:layout_height="42dp" />
 
             <TextView
-                android:id="@+id/textView44"
+                android:id="@+id/tx_view_2"
                 android:layout_width="match_parent"
                 android:layout_height="51dp" />
 
             <TextView
-                android:id="@+id/textView48"
+                android:id="@+id/tx_view_3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp" />
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/tx_view_4"
                 android:layout_width="match_parent"
                 android:layout_height="41dp" />
 
             <TextView
-                android:id="@+id/textView59"
+                android:id="@+id/tx_view_5"
                 android:layout_width="match_parent"
                 android:layout_height="51dp" />
 
             <TextView
-                android:id="@+id/textView49"
+                android:id="@+id/tx_view_6"
                 android:layout_width="match_parent"
                 android:layout_height="49dp" />
         </LinearLayout>

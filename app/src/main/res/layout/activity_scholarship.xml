@@ -105,10 +105,9 @@
         app:srcCompat="@drawable/scholarship" />
 
 
-
     <LinearLayout
 
-        android:layout_width="185dp"
+        android:layout_width="173dp"
 
         android:layout_height="420dp"
 
@@ -126,14 +125,13 @@
 
         app:layout_constraintEnd_toEndOf="parent"
 
-        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintHorizontal_bias="0.27"
 
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintVertical_bias="0.13999999">
-
+        app:layout_constraintVertical_bias="0.13">
 
 
         <TextView
@@ -147,7 +145,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/scholarship_name_txt"
@@ -157,7 +154,6 @@
             android:layout_height="33dp"
 
             android:text="TextView" />
-
 
 
         <TextView
@@ -171,7 +167,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/scholarship_state_txt"
@@ -181,7 +176,6 @@
             android:layout_height="40dp"
 
             android:text="TextView" />
-
 
 
         <TextView
@@ -195,7 +189,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/scholarship_end_txt"
@@ -205,7 +198,6 @@
             android:layout_height="33dp"
 
             android:text="TextView" />
-
 
 
         <TextView
@@ -219,7 +211,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/registration_balance_txt"
@@ -229,7 +220,6 @@
             android:layout_height="29dp"
 
             android:text="TextView" />
-
 
 
         <TextView
@@ -243,7 +233,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/tax_total_txt"
@@ -255,7 +244,6 @@
             android:text="TextView" />
 
 
-
         <TextView
 
             android:id="@+id/amount_wanted_txt"
@@ -265,7 +253,6 @@
             android:layout_height="37dp"
 
             android:text="TextView" />
-
 
 
         <TextView

@@ -68,12 +68,15 @@ public class student_infor extends AppCompatActivity implements View.OnClickList
 
             case R.id.back_bt:
 
-                Intent back_intent = new Intent(student_infor.this,sis.class);
+                Intent back_intent = new Intent(student_infor.this,student_info.class);
 
                 startActivity(back_intent);
 
                 break;
-
+            case R.id.log_out_bt:
+                Intent log_out_intent = new Intent(student_infor.this, sign_in.class);
+                startActivity(log_out_intent);
+                break;
 
 
         }

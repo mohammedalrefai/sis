@@ -86,30 +86,34 @@
         app:layout_constraintVertical_bias="0.06999999">
 
         <EditText
-            android:id="@+id/editText3"
+            android:id="@+id/hours_number"
             android:layout_width="match_parent"
             android:layout_height="71dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/hours_fees"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:text="TextView" />
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/service_fees"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:text="TextView" />
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/total"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:text="TextView" />
+            android:paddingTop="20dp"
+            android:textAlignment="center" />
     </LinearLayout>
 
     <Button

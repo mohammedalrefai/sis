@@ -169,136 +169,147 @@
         app:layout_constraintVertical_bias="0.07999998">
 
 
-
         <TextView
 
-            android:id="@+id/textView13"
+            android:id="@+id/st_name"
 
             android:layout_width="match_parent"
 
             android:layout_height="35dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView14"
+            android:id="@+id/colleage"
 
             android:layout_width="match_parent"
 
             android:layout_height="32dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView15"
+            android:id="@+id/department"
 
             android:layout_width="match_parent"
 
             android:layout_height="30dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView16"
+            android:id="@+id/study_filed"
 
             android:layout_width="match_parent"
 
             android:layout_height="40dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView17"
+            android:id="@+id/sp_study_filed"
 
             android:layout_width="match_parent"
 
             android:layout_height="37dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView18"
+            android:id="@+id/academic_status"
 
             android:layout_width="match_parent"
 
             android:layout_height="32dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView19"
+            android:id="@+id/gender"
 
             android:layout_width="match_parent"
 
             android:layout_height="37dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView20"
+            android:id="@+id/expected_graduate"
 
             android:layout_width="match_parent"
 
             android:layout_height="31dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView21"
+            android:id="@+id/regstration_date"
 
             android:layout_width="match_parent"
 
             android:layout_height="38dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView22"
+            android:id="@+id/regstration_date_1"
 
             android:layout_width="match_parent"
 
             android:layout_height="41dp"
 
-            android:text="TextView" />
-
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
 
         <TextView
 
-            android:id="@+id/textView23"
+            android:id="@+id/regstration_date_2"
 
             android:layout_width="match_parent"
 
             android:layout_height="41dp"
 
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textAlignment="center" />
 
     </LinearLayout>
 

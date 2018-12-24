@@ -39,58 +39,67 @@
         app:layout_constraintVertical_bias="0.36">
 
         <TextView
-            android:id="@+id/textView29"
+            android:id="@+id/department"
             android:layout_width="match_parent"
             android:layout_height="31dp"
-            android:text="TextView" />
+            android:paddingTop="6dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView30"
+            android:id="@+id/library"
             android:layout_width="match_parent"
             android:layout_height="43dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView31"
+            android:id="@+id/doner"
             android:layout_width="match_parent"
             android:layout_height="39dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/elevator_key"
             android:layout_width="match_parent"
             android:layout_height="37dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView33"
+            android:id="@+id/admission"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView34"
+            android:id="@+id/loans"
             android:layout_width="match_parent"
             android:layout_height="31dp"
-            android:text="TextView" />
+            android:paddingTop="6dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView35"
+            android:id="@+id/payment_fund"
             android:layout_width="match_parent"
             android:layout_height="43dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView37"
+            android:id="@+id/international_student_department"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
 
         <TextView
-            android:id="@+id/textView36"
+            android:id="@+id/smart_card"
             android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:text="TextView" />
+            android:paddingTop="10dp"
+            android:textAlignment="center" />
     </LinearLayout>
 
     <Button

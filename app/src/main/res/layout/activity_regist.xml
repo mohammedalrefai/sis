@@ -115,36 +115,40 @@
         app:layout_constraintVertical_bias="0.16000003">
 
         <EditText
-            android:id="@+id/editText19"
+            android:id="@+id/course"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Name"
+            android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText26"
+            android:id="@+id/course_number"
             android:layout_width="match_parent"
             android:layout_height="68dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Name"
+            android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText27"
+            android:id="@+id/section"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Name"
+            android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText28"
+            android:id="@+id/valid_number"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:text="Name"
+            android:textAlignment="center" />
     </LinearLayout>
 
     <Button

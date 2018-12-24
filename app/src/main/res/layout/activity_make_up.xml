@@ -85,24 +85,24 @@
         app:layout_constraintVertical_bias="0.050000012">
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/course"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText5"
+            android:id="@+id/excuse"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:textAlignment="center" />
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/description"
         android:layout_width="309dp"
         android:layout_height="127dp"
         android:layout_marginStart="8dp"
@@ -111,7 +111,7 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:textAlignment="viewEnd"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.76"

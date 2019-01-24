@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "382503683941",
+    "firebase_url": "https://sis-yu.firebaseio.com",
+    "project_id": "sis-yu",
+    "storage_bucket": "sis-yu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382503683941:android:95ef185d498f7057",
+        "android_client_info": {
+          "package_name": "com.example.oyil.sis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382503683941-vlrfks0i0mun9vecild996us6nk8br17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oyil.sis",
+            "certificate_hash": "993cb4b92c76f562ebfd6112c1a89bc59f626a5d"
+          }
+        },
+        {
+          "client_id": "382503683941-306vr4o5f9c2kt21ajln7rgvcgp8t2sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD81kmsY-6mJ0cpe27Zo_3NgNJ0K_HEW64"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382503683941-306vr4o5f9c2kt21ajln7rgvcgp8t2sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

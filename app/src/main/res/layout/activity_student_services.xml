@@ -8,25 +8,13 @@
     android:background="@drawable/sis">
 
     <ImageView
-        android:id="@+id/progress_img"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginStart="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/quittance_img"
-        app:layout_constraintEnd_toStartOf="@+id/uncomplete_img"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/evaluation"
-        android:contentDescription="TODO" />
-
-    <ImageView
         android:id="@+id/uncomplete_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginEnd="24dp"
         app:layout_constraintBottom_toTopOf="@+id/pay_img"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/progress_img"
+        app:layout_constraintStart_toEndOf="@+id/quittance_img"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/make_up" />
 
@@ -36,19 +24,22 @@
         android:layout_height="140dp"
         android:layout_marginStart="24dp"
         app:layout_constraintBottom_toTopOf="@+id/suspend_img"
-        app:layout_constraintEnd_toStartOf="@+id/pay_img"
+        app:layout_constraintEnd_toStartOf="@+id/uncomplete_img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progress_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
         app:srcCompat="@drawable/baraet" />
 
     <ImageView
         android:id="@+id/pay_img"
         android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_height="157dp"
         android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/suspend_img"
+        android:layout_marginBottom="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/quittance_img"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/suspend_img"
         app:layout_constraintTop_toBottomOf="@+id/uncomplete_img"
         app:srcCompat="@drawable/df3_rsom" />
 
@@ -57,9 +48,9 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="24dp"
-        android:layout_marginBottom="90dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/health_requir_img"
+        app:layout_constraintBottom_toTopOf="@+id/health_requir_img"
+        app:layout_constraintEnd_toStartOf="@+id/pay_img"
+        app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/quittance_img"
         app:srcCompat="@drawable/tageel" />
@@ -68,12 +59,13 @@
         android:id="@+id/health_requir_img"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
         android:layout_marginBottom="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/suspend_img"
-        app:layout_constraintTop_toBottomOf="@+id/pay_img"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suspend_img"
         app:srcCompat="@drawable/tameen" />
 
     <Button

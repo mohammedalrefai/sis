@@ -183,12 +183,11 @@
 
         <TextView
 
-            android:id="@+id/colleage"
+            android:id="@+id/collage"
 
             android:layout_width="match_parent"
 
             android:layout_height="37dp"
-
             android:paddingTop="8dp"
             android:text="TextView"
             android:textAlignment="center" />
@@ -196,7 +195,7 @@
 
         <TextView
 
-            android:id="@+id/department"
+            android:id="@+id/collage"
 
             android:layout_width="match_parent"
 

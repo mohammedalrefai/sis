@@ -1,6 +1,7 @@
 package com.example.oyil.sis;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -46,19 +47,19 @@ public class google_sevices extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.drive_img:
-                Intent drive_intent = new Intent(google_sevices.this,google_sevices.class);
+                Intent drive_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://drive.google.com"));
                 startActivity(drive_intent);
                 break;
             case R.id.gmail_img:
-                Intent gmail_intent = new Intent(google_sevices.this,google_sevices.class);
+                Intent gmail_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://mail.google.com"));
                 startActivity(gmail_intent);
                 break;
             case R.id.calender_img:
-                Intent calender_intent = new Intent(google_sevices.this,google_sevices.class);
+                Intent calender_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://calendar.google.com"));
                 startActivity(calender_intent);
                 break;
             case R.id.google_account_img:
-                Intent google_account_intent = new Intent(google_sevices.this,google_sevices.class);
+                Intent google_account_intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://myaccount.google.com"));
                 startActivity(google_account_intent);
                 break;
             case R.id.log_out_bt:

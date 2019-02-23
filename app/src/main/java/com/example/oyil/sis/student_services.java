@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 public class student_services extends AppCompatActivity implements View.OnClickListener {
 
-    private ImageView progress;
     private ImageView uncomplete;
     private ImageView quittance;
     private ImageView pay;
@@ -28,7 +27,7 @@ public class student_services extends AppCompatActivity implements View.OnClickL
     }
 
     public void set_up(){
-        progress = (ImageView) findViewById(R.id.progress_img);
+
         uncomplete = (ImageView) findViewById(R.id.uncomplete_img);
         quittance = (ImageView) findViewById(R.id.quittance_img);
         pay = (ImageView) findViewById(R.id.pay_img);
@@ -37,7 +36,7 @@ public class student_services extends AppCompatActivity implements View.OnClickL
         log_out = (Button) findViewById(R.id.log_out_bt);
         back = (Button) findViewById(R.id.back_bt);
 
-        progress.setOnClickListener(this);
+
         uncomplete.setOnClickListener(this);
         quittance.setOnClickListener(this);
         pay.setOnClickListener(this);
@@ -50,10 +49,6 @@ public class student_services extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.progress_img:
-                Intent progress_intent = new Intent(student_services.this,student_services.class);
-                startActivity(progress_intent);
-                break;
             case R.id.uncomplete_img:
                 Intent table_intent = new Intent(student_services.this,make_up.class);
                 startActivity(table_intent);

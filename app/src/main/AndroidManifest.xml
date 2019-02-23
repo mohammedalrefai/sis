@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.oyil.sis">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +23,7 @@
         <activity android:name=".sis" />
         <activity android:name=".google_sevices" />
         <activity android:name=".student_info" />
+
         <activity android:name=".student_services" />
         <activity android:name=".student_infor" />
         <activity android:name=".scholarship" />
